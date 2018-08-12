@@ -64,7 +64,7 @@ class BlogsController < ApplicationController
         @blog.draft!
       end
 
-    redirect_to blogs_url, otice: 'Post status has been updated'
+    redirect_to blogs_url, notice: 'Post status has been updated'
   end
 
   private
@@ -75,6 +75,10 @@ class BlogsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def blog_params
-      params.require(:blog).permit(:title, :body)
+      params.require(:blog).permit(:title, :body, :topic_id, :status)
+    end
+
+    def set_sidebar_topics
+      @set_sidebar_topics = Topics.with_blogs
     end
 end
