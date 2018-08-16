@@ -15,6 +15,11 @@ module ApplicationHelper
       content_tag(:p, greeting, class: "source-greeting")
     end 
   end
+
+  def copyright_generator
+     LinearJediViewTool::Rendered.copyright 'Chloé Jaouën', 'All rights reserved'
+  end
+ 
 end
 
 
