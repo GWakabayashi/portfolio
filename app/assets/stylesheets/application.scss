@@ -1,4 +1,5 @@
 @import "bootstrap";
+@import "font-awesome";
 
 /*
  * Globals
@@ -203,6 +204,10 @@ body {
   width: 22rem;
   margin: 0 auto;
   float: none;
+}
+
+.social-icons-about {
+   font-size: 1.75em;
 }
 
 
