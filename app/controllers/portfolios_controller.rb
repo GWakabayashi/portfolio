@@ -70,6 +70,8 @@
                                       :body,
                                       :topic_id, 
                                       :status, 
+                                      :main_image,
+                                      :thumb_image,
                                       technologies_attributes: [:name]
                                       )
   end
