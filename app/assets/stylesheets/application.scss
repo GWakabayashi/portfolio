@@ -209,7 +209,7 @@ body {
 
 .social-icons-about {
    font-size: 1.75em;
-}
+   }
 
 .app-nav span{
   margin-left: 15px;
@@ -225,6 +225,22 @@ body {
 
 .back-pad {
   padding-right: 10px;
+}
+
+
+/*
+ * Contact
+ */
+
+.contact-main {
+  text-align: justify;
+  text-justify: inter-word;
+  padding-left: 30px;
+  color: #D3D3D3;
+}
+
+.icon-blue{
+  color: #1E90FF;
 }
 
 
