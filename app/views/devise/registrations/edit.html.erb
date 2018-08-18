@@ -2,7 +2,7 @@
   <div class="card-block">
     <div class='row'>
       <div class='col-md-8'>
-        <h2 class='user-up'>Edit <%= resource_name.to_s.humanize %></h2>
+        <h2 class='user-up pad'>Edit <%= resource_name.to_s.humanize %></h2>
 
         <%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put }) do |f| %>
           <%= devise_error_messages! %>
@@ -47,7 +47,7 @@
       <% end %>
       </div>
           
-        <div class='col-md-4'>
+        <div class='col-md-4 pad'>
           <h3>Cancel my account</h3>
             <p>Unhappy? <%= button_to "Cancel my account", registration_path(resource_name), data: { confirm: "Are you sure?" }, method: :delete, class: 'btn btn-danger' %></p>
         </div>
@@ -55,7 +55,7 @@
 
 
 
-<div class='auth-links'>
+<div class='auth-links pad back-pad'>
   <%= link_to "Back", :back %>
     </div>
   </div>
