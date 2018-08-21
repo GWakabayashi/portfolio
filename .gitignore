@@ -27,6 +27,7 @@
 
 # I don't want to share my secrets
 /config/storage.yml
+.env
 
 
 /public/packs

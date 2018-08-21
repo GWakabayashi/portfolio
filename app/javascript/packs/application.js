@@ -7,4 +7,11 @@
 // To reference this file, add <%= javascript_pack_tag 'application' %> to the appropriate
 // layout file, like app/views/layouts/application.html.erb
 
-console.log('Hello World from Webpacker')
+//= require rails-ujs
+//= require activestorage
+//= require html.sortable
+//= require turbolinks
+//= require_tree 
+//= require jquery3
+//= require popper
+//= require bootstrap-sprockets
